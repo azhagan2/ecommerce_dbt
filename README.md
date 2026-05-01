@@ -85,7 +85,7 @@ dbt Tests + Docs + Lineage
 ---
 
 ## 📁 Project Structure
-
+```
 ecommerce_dbt/
 ├── models/
 │   ├── staging/          # Silver layer - cleaning & typing
@@ -100,6 +100,7 @@ ecommerce_dbt/
 │   └── generate_schema_name.sql
 ├── packages.yml
 └── dbt_project.yml
+```
 
 
 ---
